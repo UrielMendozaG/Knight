@@ -35,7 +35,7 @@ loader.load((loader, resources) => {
         knight.x = app.renderer.width / 2;
         knight.y = app.renderer.height / 2;
         
-        knight.anchor.x = 0.1;
+        knight.anchor.x = 0.5;
         knight.anchor.y = 0.5;
     })
 

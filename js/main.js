@@ -21,10 +21,6 @@ loader.load((loader, resources) => {
 
     for (i = 0; i < 4; i++) {
         const runDown = PIXI.Texture.from(`knight iso char_run down_${i + 1}.png`)
-        const runUp  = PIXI.Texture.from(`knight iso char_run down_${i + 1}.png`)
-        const runRigth = PIXI.Texture.from(`knight iso char_run down_${i + 1}.png`)
-        const runLeft = PIXI.Texture.from(`knight iso char_run down_${i + 1}.png`)
-
         textures.push(runDown)
     }
 

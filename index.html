@@ -1,26 +1,36 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Knight</title>
-</head>
-<body>
-
-    <canvas id="canvas"> </canvas>
-
-
+  </head>
+  <body>
+      
+      <iframe
+      src="https://open.spotify.com/embed/track/3fgch6faHYPKqE6C3hIYfo"
+      width="400"
+      height="100"
+      frameborder="0"
+      allowtransparency="true"
+      allow="encrypted-media"
+      ></iframe>
+      
+      <canvas id="canvas"> </canvas>
     <style>
-        body{
-            margin: 0;
-        }
-        canvas{
-            display: block;
-            background: black;
-        }
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+        background: black;
+      }
+      iframe{
+          display: block;
+          position: absolute;
+      }
     </style>
-
 
     <script src="./js/pixi.js"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
